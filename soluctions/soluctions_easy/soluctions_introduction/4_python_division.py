@@ -1,6 +1,7 @@
 #!/bin/python3
 
-def division(a, b):
+def division(a: int, b: int) -> (int, float):
+    """Performs both integer and float division on two integers."""
     int_division = a//b
     float_division = a/b
     return int_division, float_division
