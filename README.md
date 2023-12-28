@@ -7,29 +7,8 @@ This repository contains my solutions to various Python programming challenges o
 
 The structure of this repository is intentionally designed to encourage self-challenge and minimize the temptation to immediately refer to the solutions. It is set up as follows:
 
-- `solutions/`: Contains all solution files, organized by difficulty.
-  - `solutions_easy/`: Solutions for easy challenges.
-    - `1_solutions_introduction`
-    - `2_solution_basic_data_types`
-    - `3_solutions_strings`
-    - `4_solutions_sets`
-    - `5_solutions_math`
-    - `6_solutions_itertools`
-    - `7_solutions_collections`
-    - `8_solutions_data_and_time`
-    - `9_solutions_errores_and_exceptions`
-    - `10_solutions_classes`
-    - `11_solutions_built_ins`
-    - `12_solutions_python_functionals`
-    - `13_solutions_regex_and_parsing`
-    - `14_solutions_xml`
-    - `15_solutions_closures_and_decorators`
-    - `16_solutions_numpy`
-  - `solutions_medium`: Solutions for medium challenges.
-  - `solutions_hard`: Solutions for hard challenges.
-
-- `tasks/`: Holds the challenge descriptions, similarly organized by difficulty.
-  - `tasks_easy/`: Markdown files describing easy challenges.
+- `1_tasks/`: Holds the challenge descriptions, similarly organized by difficulty.
+  - `1_tasks_easy/`: Markdown files describing easy challenges.
     - `1_tasks_introduction`: Markdown files describing introduction challenges.
     - `2_tasks_basic_data_types`
     - `3_tasks_strings`
@@ -46,8 +25,29 @@ The structure of this repository is intentionally designed to encourage self-cha
     - `14_tasks_xml`
     - `15_tasks_closures_and_decorators`
     - `16_tasks_numpy`
-  - `tasks_medium/`: Markdown files for medium challenges.
-  - `tasks_hard/`: Markdown files for hard challenges.
+  - `2_tasks_medium/`: Markdown files for medium challenges.
+  - `3_tasks_hard/`: Markdown files for hard challenges.
+
+- `2_solutions/`: Contains all solution files, organized by difficulty.
+  - `1_solutions_easy/`: Solutions for easy challenges.
+    - `1_solutions_introduction`
+    - `2_solution_basic_data_types`
+    - `3_solutions_strings`
+    - `4_solutions_sets`
+    - `5_solutions_math`
+    - `6_solutions_itertools`
+    - `7_solutions_collections`
+    - `8_solutions_data_and_time`
+    - `9_solutions_errores_and_exceptions`
+    - `10_solutions_classes`
+    - `11_solutions_built_ins`
+    - `12_solutions_python_functionals`
+    - `13_solutions_regex_and_parsing`
+    - `14_solutions_xml`
+    - `15_solutions_closures_and_decorators`
+    - `16_solutions_numpy`
+  - `2_solutions_medium`: Solutions for medium challenges.
+  - `3_solutions_hard`: Solutions for hard challenges.
 
 - `requirements.txt`: Lists Python dependencies required for the solutions.
 
