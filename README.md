@@ -8,12 +8,43 @@ This repository contains my solutions to various Python programming challenges o
 The structure of this repository is intentionally designed to encourage self-challenge and minimize the temptation to immediately refer to the solutions. It is set up as follows:
 
 - `solutions/`: Contains all solution files, organized by difficulty.
-  - `solutions_easy/`: Solutions for easy challenges (e.g., `1_say_hello_world_with_python.py`).
-  - `solutions_medium/`: Solutions for medium challenges.
-  - `solutions_hard/`: Solutions for hard challenges.
+  - `solutions_easy/`: Solutions for easy challenges.
+    - `solutions_introduction`
+    - `solution_basic_data_types`
+    - `solutions_strings`
+    - `solutions_sets`
+    - `solutions_math`
+    - `solutions_itertools`
+    - `solutions_collections`
+    - `solutions_data_and_time`
+    - `solutions_errores_and_exceptions`
+    - `solutions_classes`
+    - `solutions_built_ins`
+    - `solutions_python_functionals`
+    - `solutions_regex_and_parsing`
+    - `solutions_xml`
+    - `solutions_closures_and_decorators`
+    - `solutions_numpy`
+  - `solutions_medium`: Solutions for medium challenges.
+  - `solutions_hard`: Solutions for hard challenges.
 
 - `tasks/`: Holds the challenge descriptions, similarly organized by difficulty.
-  - `tasks_easy/`: Markdown files describing easy challenges (e.g., `1_say_hello_world_with_python.md`).
+  - `tasks_easy/`: Markdown files describing easy challenges.
+    - `tasks_introduction`: Markdown files describing introduction challenges.
+    - `tasks_strings`
+    - `tasks_sets`
+    - `tasks_math`
+    - `tasks_itertools`
+    - `tasks_collections`
+    - `tasks_data_and_time`
+    - `tasks_errores_and_exceptions`
+    - `tasks_classes`
+    - `tasks_built_ins`
+    - `tasks_python_functionals`
+    - `tasks_regex_and_parsing`
+    - `tasks_xml`
+    - `tasks_closures_and_decorators`
+    - `tasks_numpy`
   - `tasks_medium/`: Markdown files for medium challenges.
   - `tasks_hard/`: Markdown files for hard challenges.
 
