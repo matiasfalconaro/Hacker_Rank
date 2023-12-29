@@ -1,6 +1,9 @@
 #!/bin/python3
 
-def sort_array(arr):
+from typing import List
+
+def sort_array(arr: List[int]) -> int:
+    """Find the score of the runner-up from a list of scores."""
     sorted_arr = sorted(set(arr))
 
     if len(sorted_arr) >= 2:
