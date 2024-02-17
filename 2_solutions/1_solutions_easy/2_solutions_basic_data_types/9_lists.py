@@ -1,7 +1,9 @@
 #!/bin/python3
 
 def lists_methods(N: int) -> None:
-    """Execute a series of list operations based on user input commands."""
+    """
+    Execute a series of list operations based on user input commands.
+    """
     commands = []
     result_list = []
 
@@ -17,7 +19,7 @@ def lists_methods(N: int) -> None:
             index = int(command[1])
             value = int(command[2])
             result_list.insert(index, value)
-        
+
         elif method == 'print':
             print(result_list)
 
@@ -41,6 +43,7 @@ def lists_methods(N: int) -> None:
             result_list.reverse()
 
         # The print statement after each command execution is optional
+
 
 if __name__ == '__main__':
     N = int(input())

@@ -2,8 +2,12 @@
 
 from typing import Optional, Tuple
 
+
 def arithmetic_operator(a: int, b: int) -> Optional[Tuple[int, int, int]]:
-    """Performs basic arithmetic operations (addition, subtraction, multiplication) on two integers."""
+    """
+    Performs basic arithmetic operations:
+    Addition, subtraction, multiplication) on two integers.
+    """
     if 1 <= a <= 10**10 and 1 <= b <= 10**10:
         addition = a + b
         subtraction = a - b
