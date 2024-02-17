@@ -1,6 +1,7 @@
 #!/bin/python3
 
-def get_t(n, elements):
+def get_t(n: int, elements: str) -> int:
+    """Computes the hash of a tuple created from a string of integers."""
 
     t = tuple(map(int, elements.split()))
     return hash(t)

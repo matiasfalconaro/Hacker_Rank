@@ -2,7 +2,6 @@
 
 def lists_methods(N: int) -> None:
     """Execute a series of list operations based on user input commands."""
-    
     commands = []
     result_list = []
 

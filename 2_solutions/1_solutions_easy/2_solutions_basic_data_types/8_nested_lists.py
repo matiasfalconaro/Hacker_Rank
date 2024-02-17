@@ -3,7 +3,7 @@
 from typing import List, Any
 
 def create_students(n: int) -> List[List[Any]]:
-    "Given the names and grades for each student creates nested lists in a list"
+    """Given the names and grades for each student creates nested lists in a list"""
     if 2 <= n <= 5:
         records = []
         for _ in range(n):

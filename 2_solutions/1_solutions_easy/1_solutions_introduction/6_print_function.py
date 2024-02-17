@@ -1,7 +1,7 @@
 #!/bin/python3
 
 def previous_integers(n: int) -> None:
-    "Prints all previous nonnegative integers from a given integer"
+    """Prints all previous nonnegative integers from a given integer"""
     for i in range(1, n + 1):
         print(i, end="")
 
