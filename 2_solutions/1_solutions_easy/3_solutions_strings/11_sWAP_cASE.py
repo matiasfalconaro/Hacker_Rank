@@ -13,6 +13,3 @@ def swap_case(s: str) -> str:
 if __name__ == '__main__':
     s = input()
     print(swap_case(s))
-if __name__ == '__main__':
-    s = input()
-    print(swap_case(s))
