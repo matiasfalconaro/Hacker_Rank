@@ -2,8 +2,11 @@
 
 from typing import List
 
+
 def sort_array(arr: List[int]) -> int:
-    """Find the score of the runner-up from a list of scores."""
+    """
+    Find the score of the runner-up from a list of scores.
+    """
     sorted_arr = sorted(set(arr))
 
     if len(sorted_arr) >= 2:
@@ -11,6 +14,7 @@ def sort_array(arr: List[int]) -> int:
     else:
         runner_up = sorted_arr[0]
     return runner_up
+
 
 if __name__ == '__main__':
     n = int(input())

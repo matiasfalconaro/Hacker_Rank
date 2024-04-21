@@ -7,9 +7,9 @@ This repository contains my solutions to various Python programming challenges o
 
 The structure of this repository is intentionally designed to encourage self-challenge and minimize the temptation to immediately refer to the solutions. It is set up as follows:
 
-- `1_tasks/`: Holds the challenge descriptions, similarly organized by difficulty.
-  - `1_tasks_easy/`: Markdown files describing easy challenges.
-    - `1_tasks_introduction`: Markdown files describing introduction challenges.
+- `1_tasks/`: Holds the task descriptions, similarly organized by difficulty.
+  - `1_tasks_easy/`: Markdown files describing easy tasks.
+    - `1_tasks_introduction`: Markdown files describing introduction tasks.
     - `2_tasks_basic_data_types`
     - `3_tasks_strings`
     - `4_tasks_sets`
@@ -25,11 +25,11 @@ The structure of this repository is intentionally designed to encourage self-cha
     - `14_tasks_xml`
     - `15_tasks_closures_and_decorators`
     - `16_tasks_numpy`
-  - `2_tasks_medium/`: Markdown files for medium challenges.
-  - `3_tasks_hard/`: Markdown files for hard challenges.
+  - `2_tasks_medium/`: Markdown files for medium tasks.
+  - `3_tasks_hard/`: Markdown files for hard tasks.
 
 - `2_solutions/`: Contains all solution files, organized by difficulty.
-  - `1_solutions_easy/`: Solutions for easy challenges.
+  - `1_solutions_easy/`: Solutions for easy tasks.
     - `1_solutions_introduction`
     - `2_solution_basic_data_types`
     - `3_solutions_strings`
@@ -46,8 +46,8 @@ The structure of this repository is intentionally designed to encourage self-cha
     - `14_solutions_xml`
     - `15_solutions_closures_and_decorators`
     - `16_solutions_numpy`
-  - `2_solutions_medium`: Solutions for medium challenges.
-  - `3_solutions_hard`: Solutions for hard challenges.
+  - `2_solutions_medium`: Solutions for medium tasks.
+  - `3_solutions_hard`: Solutions for hard tasks.
 
 - `requirements.txt`: Lists Python dependencies required for the solutions.
 
@@ -61,6 +61,3 @@ The structure of this repository is intentionally designed to encourage self-cha
 4. **Run and Compare**: Use the `requirements.txt` file to install any necessary dependencies and run the solutions. Compare your approach to the provided solutions for additional learning and insight.
 
 This repository's layout is aimed at fostering a learning environment where you are motivated to push your limits and develop your skills without immediately resorting to the solutions.
-
-## Contributing
-While this repository is primarily for my personal use, if you find any errors or have suggestions for alternative solutions, feel free to create an issue or a pull request.

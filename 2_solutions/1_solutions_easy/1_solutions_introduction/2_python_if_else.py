@@ -1,13 +1,11 @@
 #!/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
 
 def is_weird(n: int) -> str:
-    """Determines if a number is 'Weird' or 'Not Weird' based on specific conditions."""
+    """
+    Determines if a number is 'Weird' or 'Not Weird',
+    based on specific conditions.
+    """
     if 1 <= n <= 100:
         if n % 2 != 0:
             message = 'Weird'
@@ -22,8 +20,8 @@ def is_weird(n: int) -> str:
 
     return message
 
+
 if __name__ == '__main__':
     n = int(input().strip())
     message = is_weird(n)
     print(message)
-    
