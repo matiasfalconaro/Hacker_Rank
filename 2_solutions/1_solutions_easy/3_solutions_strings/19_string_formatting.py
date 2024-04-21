@@ -1,3 +1,5 @@
+#!/bin/python3
+
 def print_formatted(number):
     spacing = len(format(number, 'b'))
     for i in range(1,number+1):
