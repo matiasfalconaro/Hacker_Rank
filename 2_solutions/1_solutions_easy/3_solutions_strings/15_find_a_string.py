@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/python3
 
 def count_substring(string: str, sub_string: str) -> int:
     """

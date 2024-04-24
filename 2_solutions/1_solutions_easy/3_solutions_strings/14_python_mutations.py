@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/python3
 
 def mutate_string(string: str, position: int, character: str) -> str:
     """

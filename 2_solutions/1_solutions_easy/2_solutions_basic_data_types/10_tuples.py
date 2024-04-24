@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/python3
 
 def get_t(n: int, elements: str) -> int:
     """

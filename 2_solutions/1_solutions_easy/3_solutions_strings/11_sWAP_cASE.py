@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/python3
 
 def swap_case(s: str) -> str:
     """

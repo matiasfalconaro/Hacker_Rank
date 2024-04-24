@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/python3
 
 def capitalize(name, capitalized_name, first_letter):
     for letter in name:

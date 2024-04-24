@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/python3
 
 # Read input from STDIN. Print output to STDOUT
 

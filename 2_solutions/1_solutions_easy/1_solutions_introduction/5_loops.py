@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/python3
 
 def square_non_negative_int(n: int) -> None:
     """
