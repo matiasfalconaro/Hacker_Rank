@@ -1,4 +1,4 @@
-#!/usr/bin/venv/python3
+#!/usr/bin/python3
 
 variable = 'Hello, World!'
 print(variable)
